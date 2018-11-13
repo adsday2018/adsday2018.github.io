@@ -28,9 +28,9 @@ body {
  background-color: LightSlateGray;
 }
 
-.voltar {
+#voltar {
   position: fixed;
-  text-decoration: none !important; 
+  text-decoration: none !important;
 
   bottom: 0;
   left: 0;
@@ -51,6 +51,6 @@ body {
   transition: 0.5s;
 }
 
-.voltar:hover {
+#voltar:hover {
   width: 160px;
 }
