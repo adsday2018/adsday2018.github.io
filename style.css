@@ -27,3 +27,30 @@ body {
 .bg-atividade {
  background-color: LightSlateGray;
 }
+
+.voltar {
+  position: fixed;
+  text-decoration: none !important; 
+
+  bottom: 0;
+  left: 0;
+  margin: 15px;
+
+  width: 50px;
+
+  z-index: 2000;
+  height: 50px;
+  padding: 0 1em;
+  line-height: 50px;
+  font-size: 1rem;
+
+  border-radius: 25px;
+  overflow: hidden;
+
+  -webkit-transition: 0.5s; /* Safari */
+  transition: 0.5s;
+}
+
+.voltar:hover {
+  width: 160px;
+}
